@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 #import numpy as np
 import pandas as pd
 from simple_recommendation import res
-data_file = pd.read_csv(r"H:\data_test_model_set\latest_check\portfolio\proj1\movies_sorted.csv")
+data_file = pd.read_csv(open('movies_sorted.csv', 'rb'))
 from platform import python_version
 
 print(python_version())
