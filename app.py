@@ -25,7 +25,7 @@ def home():
     temp.reset_index(inplace=True)
     temp.index += 1
     #print(temp)
-    return render_template('after.html', tables=[temp.to_html(classes='data table table-striped', header="true")], numm=int(data1))
+    return render_template('after.html', tables=[temp.to_html(classes='data table table-striped table-bordered', header="true")], numm=int(data1))
 
 
 if __name__ == "__main__":
