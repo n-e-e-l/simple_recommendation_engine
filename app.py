@@ -28,5 +28,6 @@ def home():
     return render_template('after.html', tables=[temp.to_html(classes='data table table-striped table-bordered', header="true")], numm=int(data1))
 
 
+
 if __name__ == "__main__":
     app.run(debug=True)
