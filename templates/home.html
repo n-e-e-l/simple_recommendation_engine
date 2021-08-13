@@ -1,0 +1,16 @@
+<html>
+    <!-- CSS only -->
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body bgcolor=#d4a3ae>
+        <center>
+        <h1> Simple Movie Recommendation </h1><br>
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Number of Top Movies to be displayed:  <input type="text", name='num_movies', placeholder="enter a number for example 20"> <br><br>
+            <input type="submit" , value='Get Movie Recommendation!' >
+        </form>
+    </center>
+
+    </body>
+</html>
