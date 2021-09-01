@@ -14,7 +14,7 @@ Getting Ranking just based on the number of votes would mean that movies release
 
 weighted rating formula as a metric/score. Mathematically, it is represented as follows:
 
-WeightedRating(WR)=(vv+m*R)+(mv+m*C)
+WeightedRating(WR)=((v/v+m).R)+((m/v+m).C)
 In the above equation,
 
 v is the number of votes for the movie;
