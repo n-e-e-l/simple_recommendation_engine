@@ -10,6 +10,8 @@ Simple recommendation: The central idea of this approach is that films that are 
  Sample result: ![Alt text](https://github.com/n-e-e-l/simple_recommendation_engine/blob/main/sample_result.JPG)
 
 
+Getting Ranking just based on the number of votes would mean that movies released recently would have a big disadvantage as they won't have ample number of votes at all. Moreover few movies have cult following and that is refelected in their voting numbers. To avoid this weighted average os the number of votes and the average votes is taken.
+
 weighted rating formula as a metric/score. Mathematically, it is represented as follows:
 
 WeightedRating(WR)=(vv+m*R)+(mv+m*C)
