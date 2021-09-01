@@ -6,3 +6,6 @@ Dataset: https://www.kaggle.com/rounakbanik/the-movies-dataset/data
 
 Simple recommendation: The central idea of this approach is that films that are more popular and highly acclaimed are more likely to be appreciated by the general public. The      IMDB Top 250 is a good example.
  
+ 
+ Sample result: ![Alt text](https://github.com/n-e-e-l/Data-Analytics-Olympics/blob/main/img/olmpic_1.JPG?raw=true "Insight")
+
